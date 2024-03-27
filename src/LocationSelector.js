@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./LocationSelector.css";
-
 function LocationSelector() {
   const [countries, setCountries] = useState([]);
   const [states, setStates] = useState([]);
@@ -89,7 +88,7 @@ function LocationSelector() {
 
   return (
     <div className="location-selector">
-      <h1>Select Location</h1>
+      <h1>Location Selector</h1>
       <div className="dropdown-container">
         <div className="dropdown">
           <select
